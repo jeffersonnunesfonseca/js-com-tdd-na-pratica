@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint src/*.js",
+    "prepublish": "lint"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/jeffersonnunesfonseca/js-com-tdd-na-pratica/issues"
   },
-  "homepage": "https://github.com/jeffersonnunesfonseca/js-com-tdd-na-pratica#readme"
+  "homepage": "https://github.com/jeffersonnunesfonseca/js-com-tdd-na-pratica#readme",
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "husky": "^5.0.6"
+  }
 }
