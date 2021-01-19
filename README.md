@@ -15,4 +15,6 @@
 
 ## https://editorconfig.org/
 
-## husky - ações pré e pós commits,push ...
+## husky - ações pré e pós commits,push ... https://typicode.github.io/husky/#/
+
+## https://typicode.github.io/husky/#/?id=usage
