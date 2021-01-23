@@ -1,0 +1,12 @@
+#install mocha e chai
+npm install --save-dev mocha chai
+
+npm test -- --reporters
+
+
+npm test -- --bail : ao rodar o teste para no primeiro erro
+
+
+
+hooks no mocha
+

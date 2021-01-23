@@ -1,0 +1,43 @@
+oque é qualidade de software
+?
+
+cliente = bonito, funcionando do jeito que quer, barato
+
+chefe = nao demorar, gerar lucro e deixe o cliente feliz
+
+DESENVOLVEDOR =
+  quando houver várias dúvidas ao fazer um code review é um code com baixa qualidade
+
+PIRAMIDE DA QUALIDADE
+
+OPERAÇÃO
+  Corretitude - ele faz oque foi pedido?
+  Confiabilidade - ele é preciso?
+  Eficiência - tem boa performance?
+  Integridade - oferece segurança?
+  Usabilidade - fácil de usa?
+  Adaptabilidade - se adapta as necessidades do usuário?
+
+TRANSIÇÃO
+  Portabilidade - consigo movê-lo facilmente?
+  Reusabilidade - posso reutilizar parte dele?
+  Interoperabilidade - ele trabalha com outros softwares em conjunto?
+
+REVISÃO
+  Manutenibilidade - facil de dar manutenção?
+  Flexibilidade - fácil de mudar requisitos?
+  Testabilidade - posso testar seu funcionamento?
+
+DICAS ANTES DE CRIAR
+
+1 - tenha bom senso, antes de criar pense no simples e objetivo
+  1.1 váriaveis que façam sentido, facil de ler e escrever.
+  1.2 use substantivo para classes e objetos, e verbos nos métodos
+  1.3 métodos devem ser pequenos, se for ficar muito grande quebre de forma que possa reutilizar no futuro e que sejam facil de testar
+
+  NÃO COMENTE CÓDIGO, RUIM REESCREVA!
+
+DICAS TESTES
+
+1 - faça testes com todos os cenários possiveis de forma facil ,crie na mão os dados depois ajuste , use dados banco etc.
+2 - gerar documentação

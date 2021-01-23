@@ -5,7 +5,7 @@
   "main": "index.js",
   "private": false,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "./node_modules/.bin/mocha tests/**/*.spec.js",
     "lint": "./node_modules/.bin/eslint src/*.js",
     "prepublishOnly": "npm run lint"
   },
@@ -20,9 +20,15 @@
   },
   "homepage": "https://github.com/jeffersonnunesfonseca/js-com-tdd-na-pratica#readme",
   "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.2",
+    "babel-preset-es2015-native-modules": "^6.9.4",
+    "chai": "^4.2.0",
     "eslint": "^7.18.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.22.1",
-    "husky": "^5.0.6"
+    "husky": "^5.0.6",
+    "mocha": "^8.2.1",
+    "webpack": "^5.16.0"
   }
 }

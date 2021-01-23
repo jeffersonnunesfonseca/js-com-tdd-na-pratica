@@ -1,0 +1,22 @@
+1 - sempre começe pelo teste antes de fazer o código
+
+
+PASSOS TDD - FLUXO DE TESTES
+
+  1 - escreva um testa para falhar
+  2 - escreva um code para passar
+  3 - escreva um novo caso de teste
+  4 - corrigir para que passe
+  5 - escrever um terceiro caso se necessário
+  6 - refatore
+
+COMO PENSAR EM TESTAR
+
+  1 - O que o código precisa fazer?
+  2 - que dados ele recebe ?(tipo de dado)
+  3 - que dado precisa retornar?
+  4 - quais ações precisam para o código rodar?
+
+PADRÃO DO TESTES
+  ele deve fazer isso quando aquilo
+

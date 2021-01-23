@@ -1,0 +1,8 @@
+SPIES
+  vigia quantas vezes um método foi chamado
+
+STUBS
+  igual spies mas eles mudam a função principal, por exemplo jogar uma exceção ...
+
+MOCKS
+ métodos falsos com comportamento pré programado
