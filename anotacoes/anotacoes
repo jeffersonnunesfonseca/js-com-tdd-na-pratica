@@ -10,3 +10,9 @@ npm test -- --bail : ao rodar o teste para no primeiro erro
 
 hooks no mocha
 
+before
+after
+beforeEach
+afterEach
+
+métodos chai //chaijs.com

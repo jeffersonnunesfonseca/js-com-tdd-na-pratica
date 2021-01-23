@@ -5,7 +5,7 @@
   "main": "index.js",
   "private": false,
   "scripts": {
-    "test": "./node_modules/.bin/mocha tests/**/*.spec.js",
+    "test": "./node_modules/.bin/mocha tests/**/main.chai.spec.js",
     "lint": "./node_modules/.bin/eslint src/*.js",
     "prepublishOnly": "npm run lint"
   },

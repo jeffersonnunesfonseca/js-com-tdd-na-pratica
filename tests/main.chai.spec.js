@@ -1,6 +1,7 @@
 /**
- * FUNCIONALIDADES DO MOCHA
+ * FUNCIONALIDADES DO MOCHA E CHAI
  */
+var expect = require("chai").expect;
 
 /**
  * describe
@@ -13,21 +14,21 @@ describe("Main",function(){
    * roda 1x antes do bloco
    */
   before(function(){
-    console.log("before");
-  })
+    // console.log("before");
+  });
 
   /**
    * roda 1x depois do bloco
    */
   after(function(){
-    console.log("after");
+    // console.log("after");
   })
 
   /**
    * roda antes de cada bloco
    */
   beforeEach(function(){
-    console.log("beforeEach");
+    // console.log("beforeEach");
     arr=[1,2,3]
   })
 
@@ -35,26 +36,30 @@ describe("Main",function(){
    * roda depois de cada bloco
    */
   afterEach(function(){
-    console.log("afterEach");
+    // console.log("afterEach");
   })
 
 
+  it("deve ter o tipo array",function(){
+    expect(arr).to.be.a("array")
+  });
+
   it("deve ter 4  itens",function(){
-    console.log("it")
     arr.push(4)
-    console.log(arr.length)
+    expect(arr).to.have.lengthOf(4)
   });
 
 
   it("deve retornar que esta saindo o valor 3",function(){
-    console.log("it2")
-    console.log(arr.pop() ===3)
+    // console.log("it2")
+    arr.pop();
+    expect(arr).to.not.include(3);
   });
 
   it("deve retornar o tamanho 2",function(){
-    console.log("it2")
+    // console.log("it2")
     arr.pop()
-    console.log(arr.length)
+    expect(arr).to.have.lengthOf(2)
   });
 
 
