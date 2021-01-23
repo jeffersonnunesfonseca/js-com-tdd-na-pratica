@@ -62,6 +62,10 @@ describe("Main",function(){
     expect(arr).to.have.lengthOf(2)
   });
 
+  it("deve retornar tru se o valor for 3",function(){
+    expect(arr.pop() ===3).to.be.true;
+  });
+
 
   // describe("Method A",function(){
   //   /**

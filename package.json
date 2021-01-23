@@ -6,6 +6,7 @@
   "private": false,
   "scripts": {
     "test": "./node_modules/.bin/mocha tests/**/main.chai.spec.js",
+    "test:tdd": "./node_modules/.bin/mocha tests/**/main.chai.spec.js --watch",
     "lint": "./node_modules/.bin/eslint src/*.js",
     "prepublishOnly": "npm run lint"
   },
